@@ -1,0 +1,40 @@
+.myContainer{
+    background-color: #075207;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.myCard{
+    width: 430px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 10px 5px 5px #064706;
+    height: 600px;
+    
+}
+
+.pUp{
+    line-height: 110px;
+    margin-left: 5px;
+    font-size: 8.5rem;
+}
+.myNum{
+   line-height: 310px;
+    font-size: 20rem;
+}
+.pDown{
+    line-height: 240px;
+    margin-right: 5px;
+    font-size: 8.5rem;
+    transform: rotate(180deg);
+}
+
+.myButton{
+    background-color: rgba(255, 255, 255, 0.675) !important;
+    box-shadow: 6px 5px 5px #064706;
+    border-radius: 20px !important;
+    margin-top: 50px;
+}
+.myButton:hover{
+    transform: scale(1.1);
+}
