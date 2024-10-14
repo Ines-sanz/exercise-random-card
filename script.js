@@ -10,13 +10,13 @@ let numeros = ['2','3','4','5','6','7','8','9','10','J','K','Q']
 //funciones
 
 function getPalo (){
-    let randomIndex = Math.floor(Math.random()*4)
+    let randomIndex = Math.floor(Math.random()* palos.length)
     return palos[randomIndex]
 }
 console.log(getPalo())
 
 function getNumber (){
-    let randomIndex = Math.floor(Math.random()*12 )
+    let randomIndex = Math.floor(Math.random()* numeros.length)
     return numeros[randomIndex]
 }
 console.log(getNumber())
