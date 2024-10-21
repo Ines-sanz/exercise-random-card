@@ -41,8 +41,6 @@ function getCard() {
 }
 
 
-//window.onload = getRandomCard;
-
-//eventos
+window.onload = getCard;
 
 newCard.addEventListener('click', getCard)
